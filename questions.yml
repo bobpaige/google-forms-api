@@ -1,0 +1,49 @@
+forms:
+  - id: form_001
+    title: "Audio Review - Chapter 1"
+    description: |
+      Please review the audio file and provide your feedback.
+      
+      Resource to review: https://example.com/audio/chapter1.mp3
+    questions:
+      - type: short_answer
+        text: "What is your overall impression?"
+        required: false
+      - type: short_answer
+        text: "Will you share your email address?"
+        required: false
+      - type: short_answer
+        text: "Do you want followup?"
+        required: false
+      - type: paragraph
+        text: "Please provide detailed feedback on audio quality"
+        required: false
+      - type: multiple_choice
+        text: "Rate the narration"
+        options:
+          - "Excellent"
+          - "Good"
+          - "Fair"
+          - "Poor"
+        required: true
+  - id: form_002
+    title: "Audio Review - Chapter 2"
+    description: |
+      Please review the audio file and provide your feedback.
+      
+      Resource to review: https://example.com/audio/chapter2.mp3
+    questions:
+      - type: short_answer
+        text: "What is your overall impression?"
+        required: false
+      - type: paragraph
+        text: "Please provide detailed feedback on audio quality"
+        required: false
+      - type: multiple_choice
+        text: "Rate the narration"
+        options:
+          - "Excellent"
+          - "Good"
+          - "Fair"
+          - "Poor"
+        required: true
