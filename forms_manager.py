@@ -1,6 +1,7 @@
 import yaml
 import json
 import hashlib
+import argparse
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
@@ -9,17 +10,20 @@ import os.path
 import pickle
 
 SCOPES = ['https://www.googleapis.com/auth/forms.body']
-STATE_FILE = 'forms_state.json'
 
 class FormsManager:
-    def __init__(self):
+    def __init__(self, input_file):
+        self.input_file = input_file
+        base_name = os.path.splitext(os.path.basename(input_file))[0]
+        self.pickle_file = f'{base_name}.pickle'
+        self.state_file = f'{base_name}_state.json'
         self.service = self._get_service()
         self.state = self._load_state()
     
     def _get_service(self):
         creds = None
-        if os.path.exists('token.pickle'):
-            with open('token.pickle', 'rb') as token:
+        if os.path.exists(self.pickle_file):
+            with open(self.pickle_file, 'rb') as token:
                 creds = pickle.load(token)
         
         if not creds or not creds.valid:
@@ -29,19 +33,19 @@ class FormsManager:
                 flow = InstalledAppFlow.from_client_secrets_file('credentials.json', SCOPES)
                 creds = flow.run_local_server(port=0)
             
-            with open('token.pickle', 'wb') as token:
+            with open(self.pickle_file, 'wb') as token:
                 pickle.dump(creds, token)
         
         return build('forms', 'v1', credentials=creds)
     
     def _load_state(self):
-        if os.path.exists(STATE_FILE):
-            with open(STATE_FILE, 'r') as f:
+        if os.path.exists(self.state_file):
+            with open(self.state_file, 'r') as f:
                 return json.load(f)
         return {}
     
     def _save_state(self):
-        with open(STATE_FILE, 'w') as f:
+        with open(self.state_file, 'w') as f:
             json.dump(self.state, f, indent=2)
     
     def _compute_hash(self, form_config):
@@ -179,8 +183,8 @@ class FormsManager:
         
         self.service.forms().batchUpdate(formId=form_id, body={'requests': requests}).execute()
     
-    def sync_forms(self, yaml_file):
-        with open(yaml_file, 'r') as f:
+    def sync_forms(self):
+        with open(self.input_file, 'r') as f:
             config = yaml.safe_load(f)
         
         for form_config in config['forms']:
@@ -208,5 +212,9 @@ class FormsManager:
         self._save_state()
 
 if __name__ == '__main__':
-    manager = FormsManager()
-    manager.sync_forms('questions.yml')
+    parser = argparse.ArgumentParser(description='Manage Google Forms from YAML configuration')
+    parser.add_argument('--input-file', required=True, help='Path to YAML configuration file')
+    args = parser.parse_args()
+    
+    manager = FormsManager(args.input_file)
+    manager.sync_forms()

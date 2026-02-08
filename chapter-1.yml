@@ -6,7 +6,7 @@ forms:
       
       Please review the audio file and provide your feedback. After providing your feedback, you will receive a link to the next episode.
       
-      Episode 2 is available here: https://example.com/audio/chapter1.mp3
+      Episode 1 is available here: https://youtu.be/QxxC8Kn6BtI
     questions:
       - type: multiple_choice
         text: "How would you rate the pacing of this episode?"
@@ -37,7 +37,7 @@ forms:
       
       Please review the audio file and provide your feedback. After providing your feedback, you will receive a link to the next episode.
       
-      Episode 3 is available here: https://example.com/audio/chapter1.mp3
+      Episode 2 is available here: https://youtu.be/uXKiHqde6gE
     questions:
       - type: multiple_choice
         text: "How would you rate the pacing of this episode?"
@@ -68,7 +68,7 @@ forms:
       
       Please review the audio file and provide your feedback. After providing your feedback, you will receive a link to the next episode.
       
-      Episode 4 is available here: https://example.com/audio/chapter1.mp3
+      Episode 3 is available here: https://youtu.be/-DkpBHJheAo
     questions:
       - type: multiple_choice
         text: "How would you rate the pacing of this episode?"
@@ -99,7 +99,7 @@ forms:
       
       Please review the audio file and provide your feedback. After providing your feedback, you will receive a link to the next episode.
       
-      Episode 5 is available here: https://example.com/audio/chapter1.mp3
+      Episode 4 is available here: https://youtu.be/_pPqvVStowM
     questions:
       - type: multiple_choice
         text: "How would you rate the pacing of this episode?"
@@ -130,7 +130,7 @@ forms:
       
       Please review the audio file and provide your feedback. After providing your feedback, you will receive a link to the next episode.
       
-      Episode 6 is available here: https://example.com/audio/chapter1.mp3
+      Episode 5 is available here: https://youtu.be/QIKyiPXV73k
     questions:
       - type: multiple_choice
         text: "How would you rate the pacing of this episode?"
@@ -161,7 +161,7 @@ forms:
       
       Please review the audio file and provide your feedback. After providing your feedback, you will receive a link to the next episode.
       
-      Chapter 2 will be released soon.
+      Chapter 6 is available here: https://youtu.be/_mpQ7dfPUl0
     questions:
       - type: multiple_choice
         text: "How would you rate the pacing of this episode?"

@@ -19,21 +19,26 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-python forms_manager.py
+python forms_manager.py --input-file chapter-1.yml
 ```
 
 The program will:
-- Read `questions.yml`
+- Read the specified YAML file
 - Create new forms or update existing ones based on changes
-- Store form IDs and hashes in `forms_state.json`
+- Store form IDs and hashes in `<basename>_state.json`
+- Store authentication token in `<basename>.pickle`
 - Only update forms when configuration changes
+
+For example, with `--input-file questions-1.yml`:
+- State file: `questions-1_state.json`
+- Token file: `questions-1.pickle`
 
 ## Files
 
-- `questions.yml` - Input configuration
-- `forms_state.json` - Tracks form IDs and hashes (auto-generated)
+- YAML configuration file (e.g., `questions.yml`) - Input configuration
+- `<basename>_state.json` - Tracks form IDs and hashes (auto-generated)
 - `credentials.json` - Google OAuth credentials (you must provide)
-- `token.pickle` - Cached authentication token (auto-generated)
+- `<basename>.pickle` - Cached authentication token (auto-generated)
 
 ### Creating Google Forms API OAuth Credentials
 

@@ -1,6 +1,6 @@
 # Google API credentials and tokens
-credentials.json
-token.pickle
+credentials*.json
+token*.pickle
 
 # Python
 __pycache__/

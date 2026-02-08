@@ -36,3 +36,5 @@ The inputs for the entire project (which is a collection of forms) is a single Y
 The file defines multiple forms. Each form includes the requirements listed above, such as:
 - description with link to resources to be reviewed
 - response message that includes a link to the next form
+
+When called from the commandline, the name of the YAML file is passed as a parameter. The base name of this file is also used for the name of the serialization (aka `pickle`) file. For example, if the commandline parameter is `--input-file questions-1.yml`, then the corresponding pickle file is named `questions-1.pickle`.
