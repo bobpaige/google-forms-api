@@ -1,0 +1,187 @@
+forms:
+  - id: R_B-C1-E1
+    title: "Ruins and Betrayal - Chapter 2, Episode 1"
+    description: |
+      Thank you for being a beta listener!
+      
+      Please review the audio file and provide your feedback. After providing your feedback, you will receive a link to the next episode.
+      
+      Episode 1 is available here: https://youtu.be/UDvP82pfYnI
+    questions:
+      - type: multiple_choice
+        text: "How would you rate the pacing of this episode?"
+        options:
+          - "Too Slow"
+          - "Just Right"
+          - "Too Fast"
+        required: false
+      - type: short_answer
+        text: "What is your overall impression?"
+        required: false
+      - type: short_answer
+        text: "What was the most memorable moment or line for you in this episode?"
+        required: false
+      - type: short_answer
+        text: "Did the sound effects help you visualize the scenes, or were they distracting?"
+        required: false
+      - type: short_answer
+        text: "Did the voice acting help you connect with the characters, or was it distracting?"
+        required: false
+      - type: paragraph
+        text: "Any general comments? Please include your email address if you want feedback."
+        required: false
+  - id: R_B-C1-E2
+    title: "Ruins and Betrayal - Chapter 2, Episode 2"
+    description: |
+      Thank you for being a beta listener!
+      
+      Please review the audio file and provide your feedback. After providing your feedback, you will receive a link to the next episode.
+      
+      Episode 2 is available here: https://youtu.be/_qkEHS3ARLM
+    questions:
+      - type: multiple_choice
+        text: "How would you rate the pacing of this episode?"
+        options:
+          - "Too Slow"
+          - "Just Right"
+          - "Too Fast"
+        required: false
+      - type: short_answer
+        text: "What is your overall impression?"
+        required: false
+      - type: short_answer
+        text: "What was the most memorable moment or line for you in this episode?"
+        required: false
+      - type: short_answer
+        text: "Did the sound effects help you visualize the scenes, or were they distracting?"
+        required: false
+      - type: short_answer
+        text: "Did the voice acting help you connect with the characters, or was it distracting?"
+        required: false
+      - type: paragraph
+        text: "Any general comments? Please include your email address if you want feedback."
+        required: false
+  - id: R_B-C1-E3
+    title: "Ruins and Betrayal - Chapter 2, Episode 3"
+    description: |
+      Thank you for being a beta listener!
+      
+      Please review the audio file and provide your feedback. After providing your feedback, you will receive a link to the next episode.
+      
+      Episode 3 is available here: https://youtu.be/P-VehbVJKuY
+    questions:
+      - type: multiple_choice
+        text: "How would you rate the pacing of this episode?"
+        options:
+          - "Too Slow"
+          - "Just Right"
+          - "Too Fast"
+        required: false
+      - type: short_answer
+        text: "What is your overall impression?"
+        required: false
+      - type: short_answer
+        text: "What was the most memorable moment or line for you in this episode?"
+        required: false
+      - type: short_answer
+        text: "Did the sound effects help you visualize the scenes, or were they distracting?"
+        required: false
+      - type: short_answer
+        text: "Did the voice acting help you connect with the characters, or was it distracting?"
+        required: false
+      - type: paragraph
+        text: "Any general comments? Please include your email address if you want feedback."
+        required: false
+  - id: R_B-C1-E4
+    title: "Ruins and Betrayal - Chapter 2, Episode 4"
+    description: |
+      Thank you for being a beta listener!
+      
+      Please review the audio file and provide your feedback. After providing your feedback, you will receive a link to the next episode.
+      
+      Episode 4 is available here: https://youtu.be/agSbsQDD2Us
+    questions:
+      - type: multiple_choice
+        text: "How would you rate the pacing of this episode?"
+        options:
+          - "Too Slow"
+          - "Just Right"
+          - "Too Fast"
+        required: false
+      - type: short_answer
+        text: "What is your overall impression?"
+        required: false
+      - type: short_answer
+        text: "What was the most memorable moment or line for you in this episode?"
+        required: false
+      - type: short_answer
+        text: "Did the sound effects help you visualize the scenes, or were they distracting?"
+        required: false
+      - type: short_answer
+        text: "Did the voice acting help you connect with the characters, or was it distracting?"
+        required: false
+      - type: paragraph
+        text: "Any general comments? Please include your email address if you want feedback."
+        required: false
+  - id: R_B-C1-E5
+    title: "Ruins and Betrayal - Chapter 2, Episode 5"
+    description: |
+      Thank you for being a beta listener!
+      
+      Please review the audio file and provide your feedback. After providing your feedback, you will receive a link to the next episode.
+      
+      Episode 5 is available here: https://youtu.be/8EwqndEnAgw
+    questions:
+      - type: multiple_choice
+        text: "How would you rate the pacing of this episode?"
+        options:
+          - "Too Slow"
+          - "Just Right"
+          - "Too Fast"
+        required: false
+      - type: short_answer
+        text: "What is your overall impression?"
+        required: false
+      - type: short_answer
+        text: "What was the most memorable moment or line for you in this episode?"
+        required: false
+      - type: short_answer
+        text: "Did the sound effects help you visualize the scenes, or were they distracting?"
+        required: false
+      - type: short_answer
+        text: "Did the voice acting help you connect with the characters, or was it distracting?"
+        required: false
+      - type: paragraph
+        text: "Any general comments? Please include your email address if you want feedback."
+        required: false
+  - id: R_B-C1-E6
+    title: "Ruins and Betrayal - Chapter 2, Episode 6"
+    description: |
+      Thank you for being a beta listener!
+      
+      Please review the audio file and provide your feedback. After providing your feedback, you will receive a link to the next episode.
+      
+      Chapter 6 is available here: https://youtu.be/CUsYu9zIPj0
+    questions:
+      - type: multiple_choice
+        text: "How would you rate the pacing of this episode?"
+        options:
+          - "Too Slow"
+          - "Just Right"
+          - "Too Fast"
+        required: false
+      - type: short_answer
+        text: "What is your overall impression?"
+        required: false
+      - type: short_answer
+        text: "What was the most memorable moment or line for you in this episode?"
+        required: false
+      - type: short_answer
+        text: "Did the sound effects help you visualize the scenes, or were they distracting?"
+        required: false
+      - type: short_answer
+        text: "Did the voice acting help you connect with the characters, or was it distracting?"
+        required: false
+      - type: paragraph
+        text: "Any general comments? Please include your email address if you want feedback."
+        required: false
